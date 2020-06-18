@@ -1,0 +1,109 @@
+.back{
+  text-align: center;
+
+}
+.services-area{
+  text-align:center;
+}
+.single-service{
+  border: 1px solid #ddd;
+  padding: 30px 20px;
+  margin-bottom: 15px;
+}
+.single-services h2{
+  margin: 15px 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.single-service:hover{
+  background: #ff7315;
+  color: #fff;
+  transition: .6s;
+}
+
+.single-award h2{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Audiowide',cursive;
+}
+#lock{
+   border-radius: 15px 50px;
+  width: 140px;
+}
+.row{
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.centerbox{
+
+  background-color: white;
+  width: 600px;
+  text-align: center;
+  bottom:30px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  opacity: inherit;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .centerbox {
+    height: auto;
+  }
+}
+a{
+  width: 300px;
+  height: 40px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border-radius: 70px;
+}
+button{
+  width: 300px;
+  height: 40px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border-radius: 70px;
+}
+.dataentry{
+  width: 950px;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  margin-top: 160px;
+  border-radius: 20px;
+  background-color: #8cba51;
+}
+td{
+  padding: 20px;
+}
+.inputs{
+  width:700px;
+  height:30px;
+  border-radius: 10px;
+  opacity: 60%;
+}
+.b1{
+  margin-bottom: 20px;
+  border-radius: 70px;
+
+}
+h1,p{
+  font-family: 'Montserrat', sans-serif;
+  color: #1b262c;
+}
+
+.formd{
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  opacity: 50%;
+  margin-bottom: 20px;
+  border-radius: 70px;
+}
