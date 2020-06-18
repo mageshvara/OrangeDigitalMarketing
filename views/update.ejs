@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+  <body class="back">
+      <div class="centerbox">
+          <div class="row">
+            <div class="col-lg-3 " >
+              <img id="lock"src="images/signup.png" alt="">
+            </div>
+            <div class="col-sm-9 ">
+              <h1>Update</h1>
+
+
+              <form class="" action="/update" method="post">
+                <div class="form-group mx-sm-3 mb-2">
+                <h1>ENter the following detail to update the desired data.</h1>
+                <input type="text" name="dnitch" value="" class="form-control"placeholder="Enter nitch">
+                <input type="text" name="dcat" value="" class="form-control"placeholder="Enter cateagory">
+                <input type="text" name="dlink" value="" class="form-control"placeholder="Enter link">
+                <h1>Update it with..?</h1>
+                <input type="text" name="unitch" value="" class="form-control"placeholder="Enter nitch">
+                <input type="text" name="ucat" value="" class="form-control"placeholder="Enter cateagory">
+                <input type="text" name="ulink" value="" class="form-control"placeholder="Enter link">
+                <input type="number" name="da" value="" class="form-control"placeholder="Enter da">
+                <input type="number" name="pa" value="" class="form-control"placeholder="Enter pa ">
+                <input type="number" name="fa" value="" class="form-control"placeholder="Enter fa ">
+                                <input type="number" name="price" value="" class="form-control"placeholder="Enter price ">
+                                  <input type="number" name="price" value="" class="form-control"placeholder="Enter Clent-price ">
+                                <button type="submit" name="button">update</button>
+
+</div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+<%- include('partials/footer') %>

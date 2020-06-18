@@ -1,0 +1,53 @@
+<%-include("partials/header")%>
+<body style="text-align:center;">
+<h1 style="text-align:center;">List Of Links As Per Your Search.</h1><br>
+<div class=""style="padding-bottom:20px;">
+    <a class="btn btn-dark btn-lg b1" href="/display" role="button">Back_to_search</a><br>
+</div>
+
+
+
+<table>
+
+
+
+
+
+
+</table>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">NITCH</th>
+      <th scope="col">CATEGORY</th>
+      <th scope="col">LINK</th>
+      <th scope="col">RATING</th>
+      <th scope="col">DA</th>
+      <th scope="col">FA</th>
+      <th scope="col">PA</th>
+      <th scope="col">Price</th>
+
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+
+      <%var i=1;%>
+      <%posts.forEach(function(posts){%><tr>
+        <td><p><%=i%></p></td>
+        <td><p><%=posts.nitch%></p></td>
+        <td><p><%=posts.cat%></p></td>
+    <td><p><%=posts.link%></p></td>
+    <td><p><%=posts.rating%></td>
+    <td><p><%=posts.da%></p></td>
+  <td><p><%=posts.fa%></p></td>
+  <td><p><%=posts.pa%></p></td>
+  <td><p><%=posts.priceclient%></p></td></tr><%i++});%>
+
+
+  </tbody>
+</table>
+
+<%-include("partials/footer")%>

@@ -1,0 +1,96 @@
+<%- include('partials/header') %>
+
+
+  <body class="back">
+
+
+
+                <div class="services-area section-padding  active"id="services">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                        <div class="section-header">
+                          <h2>What we do</h2>
+                          <p>These are the thigs that we are provoiding</p>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6"onclick="location.href='\dataentry'">
+                          <div class="single-service wow animated fadeInLeft" data-wow-delay="0.2s">
+                            <i class="fa fa-bell fa-2x"></i>
+                            <img src="images/insert1.png" alt=""style="width:100px;height:100px;">
+                            <h2>INSERT</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+
+                        </div>
+                        <div class="col-lg-4 col-md-6"onclick="location.href='\delete'">
+                          <div class="single-service wow animated fadeInDown" data-wow-delay="0.4s">
+                            <i class="fa fa-briefcase fa-2x"></i>
+                            <img src="images/delete.png" alt=""style="width:100px;height:100px;">
+                            <h2>DELETE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-6"onClick="openUrlInNewTab('www.google.com');">
+                          <div class="single-service wow animated fadeInDown" data-wow-delay="0.4s">
+                            <i class="fa fa-briefcase fa-2x"></i>
+                            <img src="images/update1.png" alt=""style="width:100px;height:100px;"onclick="location.href='\updated'">
+                            <h2>Update</h2>
+                              <a class="btn btn-dark btn-lg b1" style="margin-left:0;"href="/updated" role="button">Update</a><br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+
+                        </div>
+                        <div class="row">
+
+
+                          <div class="col-lg-4 col-md-6" >
+                            <div class="single-service wow animated fadeInLeft" data-wow-delay="0.8s">
+                              <i class="fa fa-thumbs-up fa-2x"></i>
+                              <img src="images/search1.png" alt=""style="width:100px;height:100px;">
+                              <h2>List</h2>
+                              <form class="abc" action="/dis3" method="post">
+                                  <button type="submit" class="btn btn-outline-dark btn-lg"name="button">Search</button><br>
+                                </form>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+
+                          </div>
+                        <div class="col-lg-4 col-md-6" onclick="location.href='\odpdisplay'">
+                          <div class="single-service wow animated fadeInLeft" data-wow-delay="0.8s">
+                            <i class="fa fa-thumbs-up fa-2x"></i>
+                            <img src="images/search1.png" alt=""style="width:100px;height:100px;">
+                            <h2>SEARCH</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div>
+
+                        </div>
+
+
+
+
+                        <div class="col-lg-4 col-md-6"onclick="location.href='\odpindex'">
+                          <div class="single-service wow animated fadeInUp" data-wow-delay="1.2s">
+                            <i class="fa fa-hourglass-end fa-2x"></i>
+                            <img src="images/logout.png" alt=""style="width:100px;height:100px;">
+                            <h2>LOGOUT</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                          </div></div>
+
+                        </div>
+
+                      </div>
+                  </div>
+
+                </div>
+
+
+
+  <%- include('partials/footer') %>

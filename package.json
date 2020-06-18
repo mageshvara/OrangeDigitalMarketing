@@ -1,0 +1,36 @@
+{
+  "name": "odp",
+  "version": "1.0.0",
+  "description": "orange",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "author": "Magesh",
+  "license": "ISC",
+
+  "engines": {
+    "node": "12.14.1"
+  },
+
+
+
+  "dependencies": {
+    "alert-node": "^2.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.9",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "router": "^1.3.4"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
